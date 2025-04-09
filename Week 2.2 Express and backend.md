@@ -26,7 +26,7 @@ Node.js ek aisa tool hai jisse tum JavaScript ko browser ke bahar bhi use karke 
     "Lo bhai, ye pizza list."
 
 
-    <img src = "https://github.com/user-attachments/assets/e28c9f66-06f3-4266-a73f-e7f6aad1d99a">
+<img src = "https://github.com/user-attachments/assets/e28c9f66-06f3-4266-a73f-e7f6aad1d99a">
 DNS lookup -> converts url into IP
 
 
