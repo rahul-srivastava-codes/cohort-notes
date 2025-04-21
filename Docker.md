@@ -41,3 +41,13 @@ docker run -d -p 3000: 27017 mongo
 docker ps -< shows images which are running
 
 docker kill -> kills container or stop it
+<h3>Docker engine</h3>
+<p>Docker Engine ek software hai jo aapko containers banane, chalane aur manage karne ki suvidha deta hai. Ye ek client-server architecture par kaam karta hai</p>
+
+
+<h3>What is docker file</h3>
+Text document that contains all the commands a user could call on the command line to create an image.
+
+Create a docker file using
+from , workdir, expose , cmd, run and etc
+later use "docker build -t your-image-name ." to make the image
