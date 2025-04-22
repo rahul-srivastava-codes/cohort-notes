@@ -51,3 +51,17 @@ Text document that contains all the commands a user could call on the command li
 Create a docker file using
 from , workdir, expose , cmd, run and etc
 later use "docker build -t your-image-name ." to make the image
+
+It is better to inject to environment variable during runtime 
+
+
+<h2>Layers in docker</h2>
+Dockerfile में जो भी instructions likhte ho (jaise FROM, COPY, RUN, etc), unme se har ek instruction ek naya layer banata hai. Ye layers milke ek complete image banate hain.
+
+ Layers ke Fayde:
+
+    Caching: Agar tum Dockerfile me kuch badalte nahi ho, to Docker purani layer ko reuse kar leta hai, jisse build fast hota hai.
+
+    Efficiency: Sirf jo badalte ho wahi rebuild hota hai.
+
+    Storage: Har layer ek tarah ka snapshot hota hai, aur Docker smartly storage manage karta hai.
