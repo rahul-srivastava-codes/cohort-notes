@@ -23,16 +23,15 @@ Lekin agar tum us app ko Docker container me daal do, to wo container ke andar h
 pandas, Python sab kuch install hota hai. Ab wo container
 kahin bhi chalega bina kisi extra setup ke
 
+Technical Definition for Interview:
+"Container ek lightweight, standalone, executable package hota hai jo application aur uski dependencies ko isolate karta hai. Ye OS-level virtualization use karta hai, jisse ek hi machine par multiple containers bina interfere kiye run ho sakte hain."
+
 Docker Image kya hota hai?
-
-    Docker Image ek blueprint (design) hoti hai — jisme bataya gaya hota hai ki container ko kaise banana hai.
-    Ye image me app ka code, libraries, dependencies, OS settings — sab kuch hota hai.
-
+Docker Image ek blueprint (design) hoti hai — jisme bataya gaya hota hai ki container ko kaise banana hai.Ye image me app ka code, libraries, dependencies, OS settings — sab kuch hota hai.
 📦 Jaise ek cake ka recipe (image) hai — us recipe se tum jitne marzi cake (container) bana sakte ho.
 📦 Docker Container kya hota hai?
-
-    Docker Container ek live, running instance hota hai us image ka.
-    Ye real me chal raha hota hai — ji
+Docker Container ek live, running instance hota hai us image ka.
+Ye real me chal raha hota hai — ji
 
 To run any image just do this
 docker run <image_name>
