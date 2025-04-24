@@ -1,7 +1,12 @@
 <h3>What is docker?</h3>
-<p>Docker ek dabba (container) hai jisme app aur uski sari zarurat ki cheezein hoti hain.
-Isse app ko install karne ya chalane me dikkat nahi hoti,
-aur "mera system me chal raha, uske me nahi" waali problem nahi aati.</p>
+<p> Docker Kya Hai?<br>
+Docker ek tool hai jo developers ko apna application aur uska environment (dependencies, settings, OS, etc.) ek hi box (container) mein package karne mein madad karta hai. Isse application kahin bhi chal sakta hai bina "it works on my machine" waale problem ke.
+🔹 Simple Example:
+Maan le tu ek app bana raha hai jisme:
+    Node.js chahiye
+    MongoDB chahiye
+    Specific port open hone chahiye
+Agar tu manually setup karega har system par, toh time lagega, aur galti ke chances honge. Lekin agar tu Docker container bana dega, toh saari cheezein ek file (Dockerfile) mein define kar dega, aur woh har machine par same tareeke se chalega.</p>
 
 <h3>How to install docker</h3>
 Google it how to install and to check it is installed or not , open command prompt and type "docker"
